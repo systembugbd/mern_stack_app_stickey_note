@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body{
+    background-color: black;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Share Tech Mono', monospace;
+    flex-direction: column;
+}
+body.p404{
+    background-color: blueviolet;
+    color:#fff;
+}
+h1{
+    font-size: 8vw;
+}
+h4{
+    margin-top: -1em;
+    font-size: 3vw;
+}
