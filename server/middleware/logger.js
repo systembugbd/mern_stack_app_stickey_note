@@ -30,7 +30,7 @@ const loggerEvent = async (
 };
 
 /**
- * logger is middleware, using loggerEvent fn to generate the logs
+ * logger is middleware, using loggerEvent fn to generate the logs files
  * @param {request} req
  * @param {response} res
  * @param {next} next
