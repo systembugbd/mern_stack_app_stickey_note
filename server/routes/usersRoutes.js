@@ -5,12 +5,12 @@ const {
   postUser,
   patchUser,
   deletehUser,
-  getAllUserById,
+  getUserById,
 } = require("./../controller/userController");
 
 router
   .get("/", getAllUser)
-  .get("/:id", getAllUserById)
+  .get("/:id", getUserById)
   .post("/", postUser)
   .patch("/", patchUser)
   .delete("/", deletehUser);

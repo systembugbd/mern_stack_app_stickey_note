@@ -28,7 +28,7 @@ const getAllUser = asyncHandler(async (req, res) => {
  * @param {response} res
  * @return json response
  */
-const getAllUserById = asyncHandler(async (req, res) => {
+const getUserById = asyncHandler(async (req, res) => {
   //Destructure requied id from req.params
   const { id } = req.params;
 
@@ -198,7 +198,7 @@ const deletehUser = asyncHandler(async (req, res) => {
 
 module.exports = {
   getAllUser,
-  getAllUserById,
+  getUserById,
   postUser,
   patchUser,
   deletehUser,
